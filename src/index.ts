@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "A University Classroom",
+      prompt: "Bhubaneswar City",
     };
 
     const response = await env.AI.run(
