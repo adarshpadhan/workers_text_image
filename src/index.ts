@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const inputs = {
-      prompt: "Samsung Galaxy s25 Ultra Mobile Phone",
+      prompt: "A Cyberpunk Car",
     };
 
     const response = await env.AI.run(
